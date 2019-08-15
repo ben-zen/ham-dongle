@@ -18,9 +18,13 @@ can be a handy prototype for future devices.
 
 ## Components
 
+The following components are the main ICs; there are a whole bunch of passives
+and additional minor components to support these core chips. The full BOM will
+be available with the board details.
+
 - NiceRF SA828: 1.5W 2m HT on a board. Speaks serial and raw audio.
 - Silicon Labs CP2012N USB to UART for controlling the SA828
-- USB audio codec chip, for sending audio to and getting audio from the SA828
+- PCM2900, a TI/Burr-Brown USB audio codec that handles both input and output.
 - USB2514B from Microchip, a 4-port USB hub which supports BC1.1 & supply 1.5A
 - Power distribution IC (PMIC?)
 - Possibly need a microcontroller

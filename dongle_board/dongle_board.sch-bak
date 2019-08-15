@@ -255,12 +255,4 @@ Text Label 10100 2650 3    50   ~ 0
 RadioIn
 Text Label 9950 2650 3    50   ~ 0
 RadioOut
-Wire Wire Line
-	1150 2500 1500 2500
-Text Label 1500 2500 2    50   ~ 0
-VBUS
-Wire Wire Line
-	2900 2450 2700 2450
-Wire Wire Line
-	2900 2550 2700 2550
 $EndSCHEMATC
