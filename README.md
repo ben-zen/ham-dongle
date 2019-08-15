@@ -15,3 +15,22 @@ against directly.
 I, for my part, decided that this was an acceptable stepping stone and worthy
 project on its own. Plus it teaches me how to build a composite USB device and
 can be a handy prototype for future devices.
+
+## Components
+
+- NiceRF SA828: 1.5W 2m HT on a board. Speaks serial and raw audio.
+- Silicon Labs CP2012N USB to UART for controlling the SA828
+- USB audio codec chip, for sending audio to and getting audio from the SA828
+- USB2514B from Microchip, a 4-port USB hub which supports BC1.1 & supply 1.5A
+- Power distribution IC (PMIC?)
+- Possibly need a microcontroller
+
+## Power budget
+
+- Maximum TX current draw from the SA828 is 900mA at high power
+- CP2012N at higher baud than we'll be using it draws 9.5mA
+
+## Open questions for manufacturers
+
+- Can we just set a frequency on the transciever, or does it only work with the
+  channels?
