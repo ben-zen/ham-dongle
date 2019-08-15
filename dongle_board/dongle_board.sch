@@ -86,4 +86,38 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-L
 	1    1750 1200
 	1    0    0    -1  
 $EndComp
+$Comp
+L dongle_board:PCM2900CDBR U?
+U 1 1 5D53B2A1
+P 6450 4600
+F 0 "U?" H 7750 4987 60  0000 C CNN
+F 1 "PCM2900CDBR" H 7750 4881 60  0000 C CNN
+F 2 "DB28" H 7750 4840 60  0001 C CNN
+F 3 "" H 6450 4600 60  0000 C CNN
+	1    6450 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 5D54CB91
+P 9600 5350
+F 0 "Y?" V 9646 5219 50  0000 R CNN
+F 1 "Crystal" V 9555 5219 50  0000 R CNN
+F 2 "" H 9600 5350 50  0001 C CNN
+F 3 "~" H 9600 5350 50  0001 C CNN
+	1    9600 5350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9050 5400 9400 5400
+Wire Wire Line
+	9400 5400 9400 5500
+Wire Wire Line
+	9400 5500 9600 5500
+Wire Wire Line
+	9050 5300 9400 5300
+Wire Wire Line
+	9400 5300 9400 5200
+Wire Wire Line
+	9400 5200 9600 5200
 $EndSCHEMATC
