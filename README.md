@@ -34,3 +34,15 @@ can be a handy prototype for future devices.
 
 - Can we just set a frequency on the transciever, or does it only work with the
   channels?
+
+## Licenses
+
+All original files in this project are under the MIT license. This includes
+work in the KiCad project and other sources, except as imported from other
+locations.
+
+Datasheets in the `datasheets` folder are copyright their original authors and
+are stored here for ease of access and reference while working on this project.
+They're not intended to be kept up to date here, and at any time may in fact be
+entirely out of date and a bad reference. Don't rely on these, go find the part
+on DigiKey or Mouser or from the original supplier.
