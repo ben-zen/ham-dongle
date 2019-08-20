@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name dongle_board)(type Legacy)(uri ${KIPRJMOD}/dongle_board.lib)(options "")(descr ""))
+  (lib (name dongle_board-rescue)(type Legacy)(uri ${KIPRJMOD}/dongle_board-rescue.lib)(options "")(descr ""))
 )
