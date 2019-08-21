@@ -118,7 +118,7 @@ L Device:C C?
 U 1 1 5D557555
 P 5750 5550
 F 0 "C?" H 5865 5596 50  0000 L CNN
-F 1 "1uF" H 5865 5505 50  0000 L CNN
+F 1 "10μF" H 5865 5505 50  0000 L CNN
 F 2 "" H 5788 5400 50  0001 C CNN
 F 3 "~" H 5750 5550 50  0001 C CNN
 	1    5750 5550
@@ -255,4 +255,201 @@ Text Label 10100 2650 3    50   ~ 0
 RadioIn
 Text Label 9950 2650 3    50   ~ 0
 RadioOut
+Wire Wire Line
+	1150 2500 1500 2500
+Text Label 1500 2500 2    50   ~ 0
+VBUS
+Wire Wire Line
+	2900 2450 2700 2450
+Wire Wire Line
+	2900 2550 2700 2550
+$Comp
+L Device:R_US R?
+U 1 1 5D57F03F
+P 5350 4800
+F 0 "R?" V 5145 4800 50  0000 C CNN
+F 1 "22Ω" V 5236 4800 50  0000 C CNN
+F 2 "" V 5390 4790 50  0001 C CNN
+F 3 "~" H 5350 4800 50  0001 C CNN
+	1    5350 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 4800 5700 4800
+$Comp
+L Device:C C?
+U 1 1 5D589C1D
+P 5700 4950
+F 0 "C?" H 5815 4996 50  0000 L CNN
+F 1 "1μF" H 5815 4905 50  0000 L CNN
+F 2 "" H 5738 4800 50  0001 C CNN
+F 3 "~" H 5700 4950 50  0001 C CNN
+	1    5700 4950
+	1    0    0    -1  
+$EndComp
+Connection ~ 5700 4800
+Wire Wire Line
+	5700 4800 6450 4800
+Wire Wire Line
+	6450 4900 6000 4900
+Wire Wire Line
+	6000 4900 6000 5100
+Wire Wire Line
+	6000 5100 5700 5100
+Wire Wire Line
+	5700 5100 5000 5100
+Connection ~ 5700 5100
+Wire Wire Line
+	5200 4800 5000 4800
+Text Label 5000 4800 0    50   ~ 0
+VBUS
+Wire Wire Line
+	850  3100 850  3400
+Text Label 850  3400 1    50   ~ 0
+DGNDU
+Wire Wire Line
+	1150 2700 1500 2700
+Wire Wire Line
+	1150 2800 1500 2800
+Text Label 1500 2700 2    50   ~ 0
+DP_Up
+Text Label 1500 2800 2    50   ~ 0
+DM_Up
+Text Label 2700 2450 0    50   ~ 0
+DM_Up
+Text Label 2700 2550 0    50   ~ 0
+DP_Up
+Wire Wire Line
+	10650 4050 10650 4350
+Text Label 10650 4350 1    50   ~ 0
+GND
+Wire Wire Line
+	9650 3050 9650 2800
+Text Label 9650 2800 3    50   ~ 0
+GND
+Wire Wire Line
+	9500 3050 9500 2800
+Text Label 9500 2800 3    50   ~ 0
+VBUS
+Wire Wire Line
+	9900 5200 10250 5200
+Connection ~ 9900 5200
+Wire Wire Line
+	9900 5500 10250 5500
+Connection ~ 9900 5500
+$Comp
+L Device:C C?
+U 1 1 5D5B9188
+P 10400 5200
+F 0 "C?" V 10148 5200 50  0000 C CNN
+F 1 "20pF" V 10239 5200 50  0000 C CNN
+F 2 "" H 10438 5050 50  0001 C CNN
+F 3 "~" H 10400 5200 50  0001 C CNN
+	1    10400 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D5B979E
+P 10400 5500
+F 0 "C?" V 10148 5500 50  0000 C CNN
+F 1 "20pF" V 10239 5500 50  0000 C CNN
+F 2 "" H 10438 5350 50  0001 C CNN
+F 3 "~" H 10400 5500 50  0001 C CNN
+	1    10400 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10550 5200 10750 5200
+Wire Wire Line
+	10550 5500 10750 5500
+Wire Wire Line
+	10750 5500 10750 5650
+Wire Wire Line
+	10750 5200 10750 5500
+Connection ~ 10750 5500
+Text Label 10750 5650 1    50   ~ 0
+GND
+Connection ~ 10750 5200
+Wire Wire Line
+	10750 4800 10750 5200
+$Comp
+L Device:C C?
+U 1 1 5D5D03B6
+P 9300 4950
+F 0 "C?" H 9415 4996 50  0000 L CNN
+F 1 "1μF" H 9415 4905 50  0000 L CNN
+F 2 "" H 9338 4800 50  0001 C CNN
+F 3 "~" H 9300 4950 50  0001 C CNN
+	1    9300 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 5200 9350 5200
+Wire Wire Line
+	9350 5200 9350 5100
+Wire Wire Line
+	9350 5100 9600 5100
+Wire Wire Line
+	9600 5100 9600 4800
+Connection ~ 9600 4800
+Wire Wire Line
+	9600 4800 10750 4800
+Connection ~ 9300 4800
+Wire Wire Line
+	9300 4800 9600 4800
+Wire Wire Line
+	9050 4800 9150 4800
+Wire Wire Line
+	9050 5100 9300 5100
+Wire Wire Line
+	9050 5000 9150 5000
+Wire Wire Line
+	9150 5000 9150 4800
+Connection ~ 9150 4800
+Wire Wire Line
+	9150 4800 9300 4800
+Wire Wire Line
+	9050 4700 9650 4700
+Wire Wire Line
+	9650 4700 9650 4550
+Wire Wire Line
+	9650 4550 9850 4550
+$Comp
+L Device:C C?
+U 1 1 5D5EA132
+P 10000 4550
+F 0 "C?" V 9748 4550 50  0000 C CNN
+F 1 "1μF" V 9839 4550 50  0000 C CNN
+F 2 "" H 10038 4400 50  0001 C CNN
+F 3 "~" H 10000 4550 50  0001 C CNN
+	1    10000 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10150 4550 10750 4550
+Wire Wire Line
+	10750 4550 10750 4800
+Connection ~ 10750 4800
+Wire Wire Line
+	6450 5900 6450 6050
+Wire Wire Line
+	6450 6050 6150 6050
+$Comp
+L Device:C C?
+U 1 1 5D5F12A8
+P 6000 6050
+F 0 "C?" V 5748 6050 50  0000 C CNN
+F 1 "10μF" V 5839 6050 50  0000 C CNN
+F 2 "" H 6038 5900 50  0001 C CNN
+F 3 "~" H 6000 6050 50  0001 C CNN
+	1    6000 6050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 6050 5600 6050
+Text Label 5600 6050 0    50   ~ 0
+GND
+Text Label 5000 5100 0    50   ~ 0
+GND
 $EndSCHEMATC
