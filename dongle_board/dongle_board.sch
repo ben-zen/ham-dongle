@@ -590,4 +590,37 @@ Wire Wire Line
 	6000 4600 6000 4700
 Wire Wire Line
 	6000 4700 6450 4700
+Wire Wire Line
+	7700 2000 6850 2000
+$Comp
+L Device:R_Small_US R?
+U 1 1 5D62AB75
+P 6850 1900
+F 0 "R?" H 6918 1946 50  0000 L CNN
+F 1 "22.1kΩ" H 6918 1855 50  0000 L CNN
+F 2 "" H 6850 1900 50  0001 C CNN
+F 3 "~" H 6850 1900 50  0001 C CNN
+	1    6850 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5D62C09F
+P 6850 2100
+F 0 "R?" H 6918 2146 50  0000 L CNN
+F 1 "47.5kΩ" H 6918 2055 50  0000 L CNN
+F 2 "" H 6850 2100 50  0001 C CNN
+F 3 "~" H 6850 2100 50  0001 C CNN
+	1    6850 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 6850 2000
+Wire Wire Line
+	6850 1800 6850 1600
+Wire Wire Line
+	6850 2200 6850 2350
+Text Label 6850 2350 1    50   ~ 0
+GND
+Text Label 6850 1600 3    50   ~ 0
+VBUS
 $EndSCHEMATC
